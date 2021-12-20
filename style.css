@@ -1,0 +1,109 @@
+body{
+    font-family:'Noto Sans', sans-serif;
+    background-color: rgb(201, 195, 195);
+}
+
+main{
+    margin: 0;
+}
+/* HEADER */
+.navegador{
+    background-color: #FF2800;
+}
+
+.items{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.items:hover{
+    color:whitesmoke;
+    background-color:#787271;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: black;
+    border: 5PX solid;
+  } 
+
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+/* index */
+
+.container-main{
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('images/obi-onyeador-XT95JA80yzM-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cover-text{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.index-text{
+    background:whitesmoke;
+    opacity: 70%;
+}
+
+/* Event */
+.pages-container{
+    background-size: cover;
+    height: 100%;
+    min-height: 500px;
+    margin: 10px;
+}
+
+.lista-eventos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-evento{
+    background:rgb(201, 195, 195) ;
+    padding: 10px;
+    margin: 2px;
+}
+
+
+/* contact */
+
+.form-label{
+    font-weight: bold;
+}
+
+.boton{
+    background-color: black;
+    border: black;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+footer{
+    background-color:#303030;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
